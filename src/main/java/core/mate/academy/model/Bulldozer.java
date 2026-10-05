@@ -6,6 +6,14 @@ public class Bulldozer extends Machine {
     public Bulldozer() {
     }
 
+    public String getEngineType() {
+        return engineType;
+    }
+
+    public void setEngineType(String engineType) {
+        this.engineType = engineType;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");
